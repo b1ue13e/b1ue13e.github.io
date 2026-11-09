@@ -1,4 +1,5 @@
 Object.assign(window.siteContent.zh, {
+  "downloadCV": "下载简历",
   "navPapers": "论文",
   "navExperience": "科研经历",
   "portraitCaption": "统计学本科生 · 安徽财经大学",
@@ -12,9 +13,6 @@ Object.assign(window.siteContent.zh, {
   "exp_neoma_date": "2026年8月至今",
   "exp_neoma_role": "远程科研合作",
   "exp_neoma_text": "围绕交互式 AHP 一致性、序贯 FlowSort 反馈与策略性双层多准则决策开展合作，参与研究实现、分析及论文撰写。",
-  "exp_vital_date": "2026年11月",
-  "exp_vital_role": "科研实习 · 课题启动",
-  "exp_vital_text": "已获 VITAL Lab 科研实习录选，与 Muktesh Singh Rathore 对接长距离红外成像的湍流校正课题，初步涉及计算机视觉与生成模型。",
   "exp_cefet_date": "2026年9月至今",
   "exp_cefet_role": "科研合作",
   "exp_cefet_text": "在 Eduardo Ogasawara 的学术指导下，结合 TFFormer 团队讨论，推进预测先验失配、适应债务与恢复所需目标域证据的独立研究方向。",
