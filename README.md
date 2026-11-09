@@ -1,15 +1,34 @@
 # Junyu Li — Personal research website
 
-Live site: [b1ue13e.github.io](https://b1ue13e.github.io/)
+[中文](README.zh-CN.md) · [Live website](https://b1ue13e.github.io/)
 
-A bilingual academic website with my research interests, papers and working manuscripts, research collaborations, open-source projects, and contact information.
+A bilingual academic website presenting my research interests, papers and working manuscripts, research collaborations, open-source projects, and contact information. It includes an original portrait, ORCID link, and downloadable CV.
 
-The website uses plain HTML, CSS, and JavaScript. Serve this directory with a static web server to preview it:
+## Preview locally
+
+The site uses plain HTML, CSS, and JavaScript, with no package installation or build step. From this directory, run:
 
 ```sh
 python -m http.server 8080
 ```
 
-Content is in `index.html`, with Chinese translations in `content.js` and `academic-content.js`. Interactions are in `site.js`, and visual styles in `styles.css` and `academic.css`. GitHub Pages publishes the `main` branch root directly.
+Open <http://localhost:8080/>. Serving over HTTP lets you check the language preference and clipboard interaction in a normal browser context.
 
-Contact: [ljylikezmn999@gmail.com](mailto:ljylikezmn999@gmail.com)
+## Content and structure
+
+| File | Purpose |
+| --- | --- |
+| [`index.html`](index.html) | English content, page sections, paper and experience entries, portrait and public links |
+| [`content.js`](content.js) | Chinese copy and shared interface messages |
+| [`academic-content.js`](academic-content.js) | Chinese paper, experience and CV labels |
+| [`site.js`](site.js) | Language persistence, research filters, mobile navigation and email copying |
+| [`styles.css`](styles.css), [`academic.css`](academic.css) | Base visual system and academic-page layout |
+| [`assets/`](assets/) | Portrait, CV, favicon and social-preview artwork |
+
+Visitors can switch languages, filter research themes and expand project descriptions. The language choice is stored in the browser. See the [content maintenance guide](docs/CONTENT.md) before changing bilingual text or academic information.
+
+## Publishing
+
+GitHub Pages publishes the root of the `main` branch directly. Push static content to that branch and check the Pages deployment result. No separate generated site directory is required.
+
+Paper statuses describe the actual manuscript stage; a working paper is not presented as an accepted publication. The public contact address is [ljylikezmn999@gmail.com](mailto:ljylikezmn999@gmail.com).
