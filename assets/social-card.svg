@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+<rect width="1200" height="630" fill="#F6F4ED"/>
+<rect x="810" width="390" height="630" fill="#E8EDDF"/>
+<path d="M60 74H1140M60 546H1140" stroke="#C7D1C0"/>
+<text x="60" y="124" fill="#647665" font-family="Segoe UI,Arial,sans-serif" font-size="19" letter-spacing="2">MACHINE LEARNING · DECISION-MAKING · OPTIMIZATION</text>
+<text x="54" y="278" fill="#172D29" font-family="Georgia,serif" font-size="112" letter-spacing="-4">Junyu Li<tspan fill="#3159DB">.</tspan></text>
+<text x="62" y="362" fill="#172D29" font-family="Segoe UI,Arial,sans-serif" font-size="34">Learning, reasoning &amp; better decisions.</text>
+<text x="62" y="469" fill="#647665" font-family="Segoe UI,Arial,sans-serif" font-size="22">Statistics @ Anhui University of Finance and Economics</text>
+<text x="62" y="585" fill="#172D29" font-family="Consolas,monospace" font-size="22">b1ue13e.github.io</text>
+<g stroke="#647665" stroke-width="2"><path d="M910 252L1080 252L995 397Z"/><path d="M910 252L995 310L1080 252M995 310V397" stroke-dasharray="5 7"/></g>
+<circle cx="910" cy="252" r="30" fill="#F6F4ED" stroke="#BAC7B4"/><circle cx="1080" cy="252" r="30" fill="#F6F4ED" stroke="#BAC7B4"/><circle cx="995" cy="397" r="30" fill="#F6F4ED" stroke="#BAC7B4"/><circle cx="995" cy="310" r="42" fill="#172D29"/>
+<circle cx="995" cy="310" r="7" fill="#A5B9FF"/>
+</svg>
