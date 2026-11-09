@@ -13,7 +13,9 @@
   <link rel="canonical" href="https://b1ue13e.github.io/" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="academic.css" />
   <script src="content.js" defer></script>
+  <script src="academic-content.js" defer></script>
   <script src="site.js" defer></script>
   <title>Junyu Li | Learning, Reasoning &amp; Decisions</title>
 </head>
@@ -24,6 +26,8 @@
     <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" type="button" data-i18n="menu">Menu</button>
     <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
       <a href="#focus" data-i18n="navFocus">Focus</a>
+      <a href="#papers" data-i18n="navPapers">Papers</a>
+      <a href="#experience" data-i18n="navExperience">Experience</a>
       <a href="#research" data-i18n="navResearch">Research</a>
       <a href="#code" data-i18n="navCode">Code</a>
       <a href="#contact" data-i18n="navContact">Contact</a>
@@ -39,40 +43,14 @@
         <p class="hero-summary" data-i18n="heroSummary">Machine learning for adaptive, reliable decisions.</p>
         <p class="hero-note" data-i18n="heroNote">I'm a statistics undergraduate at Anhui University of Finance and Economics. I study how intelligent systems learn from feedback, allocate computation, and make decisions under uncertainty.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#research"><span data-i18n="exploreResearch">Explore my research</span><span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="#papers"><span data-i18n="exploreResearch">Papers &amp; manuscripts</span><span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href="mailto:ljylikezmn999@gmail.com" data-i18n="getInTouch">Get in touch</a>
         </div>
       </div>
-      <div class="hero-visual">
-        <svg class="research-map" viewBox="0 0 480 460" role="img" aria-labelledby="map-title map-desc">
-          <title id="map-title">A map of my research interests</title>
-          <desc id="map-desc">Learning, reasoning and optimization connect through feedback to decision-making under uncertainty. This is a conceptual research map.</desc>
-          <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#172D29" opacity=".12" /></pattern></defs>
-          <rect x="12" y="12" width="456" height="436" rx="18" fill="#E8EDDF" />
-          <rect x="12" y="12" width="456" height="436" rx="18" fill="url(#dots)" />
-          <path d="M60 70H420M60 386H420" stroke="#C2CDBD" />
-          <text x="60" y="52" font-family="Consolas,monospace" font-size="12" letter-spacing="2" fill="#647665">A RESEARCH MAP</text>
-          <g fill="none" stroke="#647665" stroke-width="1.4">
-            <path d="M130 148Q240 83 350 148M130 148Q105 277 240 321M350 148Q375 277 240 321" />
-            <path d="M130 148L240 231L350 148M240 231V321" stroke-dasharray="4 6" />
-            <circle cx="240" cy="231" r="105" stroke="#172D29" stroke-opacity=".1" />
-          </g>
-          <circle cx="130" cy="148" r="40" fill="#F6F4ED" stroke="#BAC7B4" />
-          <circle cx="350" cy="148" r="40" fill="#F6F4ED" stroke="#BAC7B4" />
-          <circle cx="240" cy="321" r="45" fill="#F6F4ED" stroke="#BAC7B4" />
-          <circle cx="240" cy="231" r="53" fill="#172D29" />
-          <g text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#172D29">
-            <text x="130" y="154" data-i18n="mapLearn">Learn</text>
-            <text x="350" y="154" data-i18n="mapReason">Reason</text>
-            <text x="240" y="327" data-i18n="mapOptimize">Optimize</text>
-            <text x="240" y="237" fill="#F6F4ED" font-size="20" data-i18n="mapDecide">Decide</text>
-          </g>
-          <circle class="map-marker" cx="196" cy="109" r="5" fill="#3159DB" />
-          <circle cx="107" cy="259" r="4" fill="#3159DB" />
-          <text x="240" y="415" text-anchor="middle" font-family="Consolas,monospace" font-size="12" letter-spacing="1" fill="#647665" data-i18n="mapBottom">FEEDBACK · COMPUTATION · UNCERTAINTY</text>
-        </svg>
-        <p class="visual-caption" data-i18n="mapCaption">Different methods. One question: how do we make better decisions?</p>
-      </div>
+      <figure class="hero-visual portrait-card">
+        <img class="portrait" src="assets/junyu-li.jpg" alt="Portrait of Junyu Li" width="1260" height="1573" fetchpriority="high" />
+        <figcaption class="portrait-caption"><strong>Junyu Li <span lang="zh-CN">李俊宇</span></strong><span data-i18n="portraitCaption">Statistics undergraduate · AUFE</span></figcaption>
+      </figure>
     </section>
 
     <section class="section focus-section" id="focus" aria-labelledby="focus-title">
@@ -89,9 +67,55 @@
       </div>
     </section>
 
+    <section class="section papers-section" id="papers" aria-labelledby="papers-title">
+      <div class="academic-heading section-heading"><span class="section-index">02 /</span><h2 id="papers-title" data-i18n="papersTitle">Papers &amp; manuscripts</h2><p class="section-description" data-i18n="papersIntro">Submitted and working manuscripts across decision science, machine learning, and optimization.</p></div>
+      <h3 class="paper-group-heading" data-i18n="submittedHeading">Submitted manuscript</h3>
+      <ul class="paper-list">
+        <li class="paper-entry"><span class="paper-number">01</span><article class="paper-body"><h3 class="paper-title">Are Inconsistent Decisions Better? Revisiting Analytic Hierarchy Process Consistency through Interactive Advice and Behavioural Validation</h3><p class="paper-authors"><strong>Junyu Li</strong>, Alessio Ishizaka</p><p class="paper-venue" data-i18n="paper_ahp_venue">Journal of the Operational Research Society · submitted November 2026</p><p class="paper-summary" data-i18n="paper_ahp_summary">Interactive decision advice and behavioural validation of consistency correction in the Analytic Hierarchy Process.</p><div class="paper-links"><span class="paper-status submitted" data-i18n="paper_ahp_status">Submitted manuscript</span></div></article></li>
+      </ul>
+      <h3 class="paper-group-heading" data-i18n="workingHeading">Working papers & manuscripts</h3>
+      <ul class="paper-list">
+        <li class="paper-entry"><span class="paper-number">02</span><article class="paper-body"><h3 class="paper-title">A weight-repair algorithm for FlowSort: incorporating feedback while retaining existing assignments</h3><p class="paper-authors"><strong>Junyu Li</strong>, Alessio Ishizaka</p><p class="paper-venue" data-i18n="paper_flowsort_venue">Research manuscript · 2026</p><p class="paper-summary" data-i18n="paper_flowsort_summary">Updating common criterion weights after new feedback while retaining existing classifications.</p><div class="paper-links"><span class="paper-status" data-i18n="paper_flowsort_status">Manuscript under coauthor review</span></div></article></li>
+        <li class="paper-entry"><span class="paper-number">03</span><article class="paper-body"><h3 class="paper-title">When Familiarity Loses Its Edge in Linear Probing</h3><p class="paper-authors"><strong>Junyu Li</strong>, Zhongtian Sun</p><p class="paper-venue" data-i18n="paper_familiarity_venue">Representation learning · 2026</p><p class="paper-summary" data-i18n="paper_familiarity_summary">How training exposure and regularized probe fitting change the value of familiar examples during neural network training.</p><div class="paper-links"><span class="paper-status" data-i18n="paper_familiarity_status">Working manuscript</span></div></article></li>
+        <li class="paper-entry"><span class="paper-number">04</span><article class="paper-body"><h3 class="paper-title">Cost Forecasting for Budgeted Selective Reasoning</h3><p class="paper-venue" data-i18n="paper_cost_venue">Reasoning &amp; computation allocation · 2026</p><p class="paper-summary" data-i18n="paper_cost_summary">Forecasting inference-time costs to support selective reasoning under a fixed computation budget.</p><div class="paper-links"><span class="paper-status" data-i18n="paper_cost_status">Working manuscript</span></div></article></li>
+        <li class="paper-entry"><span class="paper-number">05</span><article class="paper-body"><h3 class="paper-title">Fix One, Break Many: Predicting the Spillover of Natural-Language Feedback in Adaptive Agents</h3><p class="paper-venue" data-i18n="paper_spillover_venue">Adaptive agents &amp; feedback · 2026</p><p class="paper-summary" data-i18n="paper_spillover_summary">How a natural-language correction can fix one decision while changing other decisions made by an adaptive agent.</p><div class="paper-links"><span class="paper-status" data-i18n="paper_spillover_status">Working manuscript</span></div></article></li>
+        <li class="paper-entry"><span class="paper-number">06</span><article class="paper-body"><h3 class="paper-title">Truthful Feedback Selection Accelerates Decision Regressions in Bounded Soft Repair</h3><p class="paper-venue" data-i18n="paper_truthful_venue">Sequential feedback &amp; decision repair · 2026</p><p class="paper-summary" data-i18n="paper_truthful_summary">Sequential selection of truthful feedback and the resulting regressions in a bounded decision-repair process.</p><div class="paper-links"><span class="paper-status" data-i18n="paper_truthful_status">Working manuscript</span></div></article></li>
+        <li class="paper-entry"><span class="paper-number">07</span><article class="paper-body"><h3 class="paper-title">When do historical power curves improve wind power commitments?</h3><p class="paper-authors"><strong>Junyu Li</strong>, Juntao Du</p><p class="paper-venue" data-i18n="paper_curves_venue">Energy forecasting &amp; decisions · 2026</p><p class="paper-summary" data-i18n="paper_curves_summary">Evaluating historical wind-power relationships through their contribution to operational power commitments.</p><div class="paper-links"><span class="paper-status" data-i18n="paper_curves_status">Working manuscript</span><a class="text-link" href="https://github.com/b1ue13e/pcwpf-attribution"><span data-i18n="paper_curves_link0">Research code</span> ↗</a></div></article></li>
+        <li class="paper-entry"><span class="paper-number">08</span><article class="paper-body"><h3 class="paper-title">Current Power as Incremental Telemetry for Wind Power Reserve Decisions</h3><p class="paper-authors"><strong>Junyu Li</strong>, Juntao Du</p><p class="paper-venue" data-i18n="paper_telemetry_venue">Energy systems &amp; decision support · 2026</p><p class="paper-summary" data-i18n="paper_telemetry_summary">Examining when current-power telemetry adds information for wind-power reserve decisions.</p><div class="paper-links"><span class="paper-status" data-i18n="paper_telemetry_status">Working manuscript</span><a class="text-link" href="https://github.com/b1ue13e/windfarm-latent-boundary-risk"><span data-i18n="paper_telemetry_link0">Research code</span> ↗</a></div></article></li>
+      </ul>
+    </section>
+
+    <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="experience-layout">
+        <div class="section-heading"><span class="section-index">03 /</span><h2 id="experience-title" data-i18n="experienceTitle">Research<br />experience</h2><p data-i18n="experienceIntro">Collaborative work on concrete questions, from reproducing experiments to developing methods and manuscripts.</p></div>
+        <div class="experience-list">
+          <article class="experience-entry">
+            <p class="experience-date" data-i18n="exp_neoma_date">Aug 2026–present</p>
+            <div class="experience-body"><h3>NEOMA Business School</h3><p class="experience-role" data-i18n="exp_neoma_role">Remote research collaboration</p><p class="experience-people"><a href="https://neoma-bs.fr/professeurs/ishizaka-alessio">Alessio Ishizaka</a></p><p class="experience-description" data-i18n="exp_neoma_text">Collaborative work on interactive AHP consistency, sequential FlowSort feedback, and strategic bilevel multi-criteria decision support. Contributing to study implementation, analysis, and manuscript development.</p></div>
+          </article>
+          <article class="experience-entry">
+            <p class="experience-date" data-i18n="exp_vital_date">Nov 2026</p>
+            <div class="experience-body"><h3>VITAL Lab · IIT Roorkee</h3><p class="experience-role" data-i18n="exp_vital_role">Research internship · project onboarding</p><p class="experience-people"><a href="https://www.iitr.ac.in/Schools/Mehta%20Family%20School%20of%20Data%20Science%20and%20Artificial%20Intelligence/People/Faculty/101043.html">Gaurav Kumar Nayak</a> · Muktesh Singh Rathore</p><p class="experience-description" data-i18n="exp_vital_text">Selected for a research internship in VITAL Lab. Assigned to work with Muktesh Singh Rathore on turbulence correction for long-range infrared imaging, with an initial focus on computer vision and generative models.</p></div>
+          </article>
+          <article class="experience-entry">
+            <p class="experience-date" data-i18n="exp_cefet_date">Sep 2026–present</p>
+            <div class="experience-body"><h3>Data Analytics Lab · CEFET/RJ</h3><p class="experience-role" data-i18n="exp_cefet_role">Research collaboration</p><p class="experience-people"><a href="https://eic.cefet-rj.br/~eogasawara/">Eduardo Ogasawara</a></p><p class="experience-description" data-i18n="exp_cefet_text">Developing an independent research direction on misspecified forecasting priors, adaptation debt, and the target evidence needed for recovery, with academic guidance from Eduardo Ogasawara and discussion with the TFFormer team.</p></div>
+          </article>
+          <article class="experience-entry">
+            <p class="experience-date" data-i18n="exp_usp_date">Aug 2026–present</p>
+            <div class="experience-body"><h3>ICMC · University of São Paulo</h3><p class="experience-role" data-i18n="exp_usp_role">Remote research collaboration</p><p class="experience-people">L. F. Steve Ataucuri Cruz · <a href="https://sites.icmc.usp.br/alneu/">Alneu de Andrade Lopes</a></p><p class="experience-description" data-i18n="exp_usp_text">Working with Steve Ataucuri Cruz following an introduction by Alneu de Andrade Lopes. The project studies when corrupted SCADA measurements can be distinguished from real turbine operating changes, with reproducible regression, residual, and cross-site validation studies.</p></div>
+          </article>
+          <article class="experience-entry">
+            <p class="experience-date" data-i18n="exp_nyu_date">Sep 2026–present</p>
+            <div class="experience-body"><h3>NYU Stern · research project exchange</h3><p class="experience-role" data-i18n="exp_nyu_role">Project-based research &amp; replication</p><p class="experience-people"><a href="https://www.stern.nyu.edu/faculty/bio/zhengyuan-zhou">Zhengyuan Zhou</a> · Sharon Wang</p><p class="experience-description" data-i18n="exp_nyu_text">Introduced by Zhengyuan Zhou to his PhD student Sharon Wang for a concrete replication task on GPU-accelerated inventory optimization. Local work focuses on dynamic programming and perishable-inventory decision problems.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="section research-section" id="research" aria-labelledby="research-title">
       <div class="work-heading">
-        <div class="section-heading"><span class="section-index">02 /</span><h2 id="research-title" data-i18n="researchTitle">Selected research</h2></div>
+        <div class="section-heading"><span class="section-index">04 /</span><h2 id="research-title" data-i18n="researchTitle">Selected research</h2></div>
         <div class="filters" role="group" aria-label="Filter research projects">
           <button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true" data-i18n="filterAll">All work</button>
           <button type="button" class="filter-button" data-filter="decision" aria-pressed="false" data-i18n="filterDecision">Decisions</button>
@@ -113,7 +137,7 @@
     </section>
 
     <section class="section code-section" id="code" aria-labelledby="code-title">
-      <div class="section-heading"><span class="section-index">03 /</span><h2 id="code-title" data-i18n="codeTitle">Code, beyond the paper</h2></div>
+      <div class="section-heading"><span class="section-index">05 /</span><h2 id="code-title" data-i18n="codeTitle">Code, beyond the paper</h2></div>
       <div class="code-layout">
         <article class="code-feature">
           <svg class="code-icon" viewBox="0 0 180 76" fill="none" aria-hidden="true"><path d="M12 38H168M50 14L90 62L130 14" stroke="currentColor" opacity=".4"/><circle cx="12" cy="38" r="7" fill="currentColor"/><circle cx="90" cy="62" r="7" fill="currentColor"/><circle cx="168" cy="38" r="7" fill="currentColor"/><circle cx="50" cy="14" r="7" fill="currentColor"/><circle cx="130" cy="14" r="7" fill="currentColor"/></svg>
