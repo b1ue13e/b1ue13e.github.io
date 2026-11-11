@@ -30,6 +30,7 @@ Object.assign(window.siteContent.zh, {
   "exp_nyu_text": "经 Zhengyuan Zhou 引荐，与其博士生 Sharon Wang 对接 GPU 加速库存优化的论文复现任务，本地研究围绕动态规划与易腐品库存决策展开。",
   "exp_galvani_date": "2024–2025",
   "exp_galvani_role": "实习",
+  "exp_galvani_text": "开展混合专家模型（MoE）剪枝实验，搭建 PyTorch 训练与评估流程，并研究分布外泛化。",
   "paper_ahp_venue": "Journal of the Operational Research Society · 2026年11月投稿",
   "paper_ahp_summary": "通过交互式决策建议与行为实验，研究层次分析法中的一致性修正。",
   "paper_ahp_status": "已投稿",
