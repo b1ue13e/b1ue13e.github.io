@@ -43,7 +43,7 @@ button:active, .button:active { transform: translateY(1px); }
 .hero-portrait-column { padding-top: 24px; }
 .hero .portrait-card { width: 100%; margin: 0; }
 .portrait-frame { width: 290px; max-width: 100%; margin-inline: auto; }
-.hero .portrait { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 42%; border-radius: 5px; }
+.hero .portrait { display: block; width: 100%; height: auto; aspect-ratio: 1122 / 1402; object-fit: contain; mix-blend-mode: multiply; }
 .portrait-caption { display: flex; flex-direction: column; gap: 2px; margin-top: 18px; text-align: center; font-size: 11px; color: var(--muted); }
 .portrait-caption strong { color: var(--ink); font-weight: 500; font-size: 13px; }
 .portrait-caption strong span { margin-left: 8px; font-size: 12px; }
@@ -151,8 +151,7 @@ button:active, .button:active { transform: translateY(1px); }
   .primary-nav a { min-height: 44px; font-size: 13px; }
   .hero { grid-template-columns: minmax(0, 1fr); gap: 30px; padding-top: 20px; padding-bottom: 44px; }
   .hero-portrait-column { padding: 0; }
-  .portrait-frame { width: 116px; margin: 0; }
-  .hero .portrait { aspect-ratio: 1; object-position: 50% 28%; border-radius: 50%; }
+  .portrait-frame { width: 140px; margin: 0; }
   .portrait-caption, .portrait-email { display: none; }
   .hero h1 { font-size: 38px; }
   .hero-name { gap: 16px; }
